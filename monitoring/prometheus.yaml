@@ -1,0 +1,12 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: dash-app-monitor
+spec:
+  selector:
+    matchLabels:
+      app: dash-app
+  endpoints:
+    - port: 8050
+      path: "/metrics"
+      interval: 30s
