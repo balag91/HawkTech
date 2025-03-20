@@ -19,6 +19,9 @@ This setup consists of:
 - HPA for autoscaling pods
 - Metrics Server to monitor CPU and memory usage
 
+![EKS-Self-Heal](https://github.com/user-attachments/assets/67f95c0c-f676-4d9f-a8ea-166e96d9b2a8)
+
+
 ## Prerequisites
 Before deploying this project, ensure you have:
 
